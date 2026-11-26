@@ -9,7 +9,7 @@ import telebot
 from flask import Flask
 
 # ---------------- CONFIG ----------------
-BOT_TOKEN = "7994446557:AAEpk4CFOycH4wplXgJStGyW-FlwUJDzkbY"  # your bot token
+BOT_TOKEN = "9231852175:AAEmC4uuHjhxiSts_gyBUgsSoQWBHEr4e4c"  # your bot token
 PERMANENT_ADMIN = 6403142441        # Telegram ID of admin
 DUMP_CHANNEL_ID = -1002627919828    # dump channel ID
 PLAYLIST_URL = "https://iptv-org.github.io/iptv/index.m3u"  # public playlist
