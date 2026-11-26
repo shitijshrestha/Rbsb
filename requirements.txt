@@ -1,12 +1,4 @@
-tgcrypto
-ffmpeg-python
-python-dotenv
-apscheduler
-pytz
+flask
+telebot
 requests
-telethon
-aiofiles
-aiohttp
-pymongo
-motor
-psutil
+pillow
