@@ -2,7 +2,7 @@
 import os, json, time, threading, subprocess, requests, telebot
 from flask import Flask
 
-bot = telebot.TeleBot(os.getenv("6403142441"), parse_mode="HTML")
+bot = telebot.TeleBot(os.getenv("9231852175:AAEmC4uuHjhxiSts_gyBUgsSoQWBHEr4e4c"), parse_mode="HTML")
 app = Flask(__name__)
 ADMIN = int(os.getenv("PERMANENT_ADMIN", "6403142441")
 DUMP = int(os.getenv("-1002627919828")
