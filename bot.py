@@ -4,7 +4,7 @@ from flask import Flask
 
 bot = telebot.TeleBot(os.getenv("9231852175:AAEmC4uuHjhxiSts_gyBUgsSoQWBHEr4e4c"), parse_mode="HTML")
 app = Flask(__name__)
-ADMIN = int(os.getenv("PERMANENT_ADMIN", "6403142441")
+ADMIN = int(os.getenv("PERMANENT_ADMIN", "6403142441"))
 DUMP = int(os.getenv("-1002627919828")
 DEFAULT = os.getenv("PLAYLIST_URL", "https://iptv-org.github.io/iptv/index.m3u")
 
