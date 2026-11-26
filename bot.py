@@ -2,10 +2,10 @@
 import os, json, time, threading, subprocess, requests, telebot
 from flask import Flask
 
-bot = telebot.TeleBot(os.getenv("BOT_TOKEN"), parse_mode="HTML")
+bot = telebot.TeleBot(os.getenv("6403142441"), parse_mode="HTML")
 app = Flask(__name__)
-ADMIN = int(os.getenv("PERMANENT_ADMIN", "6403142441"))
-DUMP = int(os.getenv("DUMP_CHANNEL_ID", "0"))
+ADMIN = int(os.getenv("PERMANENT_ADMIN", "6403142441")
+DUMP = int(os.getenv("-1002627919828")
 DEFAULT = os.getenv("PLAYLIST_URL", "https://iptv-org.github.io/iptv/index.m3u")
 
 def load(f, d):
